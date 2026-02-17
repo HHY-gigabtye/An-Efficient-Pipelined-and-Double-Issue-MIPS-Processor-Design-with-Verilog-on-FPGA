@@ -34,7 +34,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 The correctness of this processor is verified through a suite of testbenches covering various hazard scenarios.
 
 For detailed test plans, corner case analysis, and simulation results, please see:
-👉 **[Full Verification Report](docs/verification.md)**
+👉 **[Full Verification Report](Docs/Verification.md)**
 
 ### Performance
 * **Target FPGA**: Xilinx Artix-7 (or your specific board).

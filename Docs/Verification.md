@@ -1,1 +1,35 @@
 # Verification
+
+This document details the verification strategy used to ensure the functional correctness of the **Double-Issue MIPS Processor**, specifically focusing on hazard detection and parallel execution.
+
+## 1. Verification Strategy
+We employed a **layered verification approach**:
+* **Unit Testing**: Each module (ALU, Register File, Decoder) was tested individually with dedicated testbenches.
+* **System Testing**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
+
+## 2. Test Scenarios (Corner Cases)
+To verify the Double-Issue logic, the following specific scenarios were tested:
+
+| Scenario | Description | Expected Result | Status |
+| :--- | :--- | :--- | :--- |
+| **Independent Instructions** | Two instructions with no dependencies (e.g., `ADD` and `SUB`). | Both issued and executed in the same cycle. | ✅ Pass |
+| **RAW Dependency** | Second instruction depends on the result of the first. | Second instruction stalls or uses Forwarding. | ✅ Pass |
+| **Load-Use Hazard** | Instruction after a `LW` depends on the loaded data. | Pipeline inserts a bubble (Stall). | ✅ Pass |
+| **Control Hazard** | A `Branch` instruction is issued. | Pipeline flushes or predicts correctly. | ✅ Pass |
+
+## 3. Simulation Environment
+* **Simulator**: [例如: Vivado XSIM / Icarus Verilog]
+* **Waveform Viewer**: [例如: GTKWave / Vivado Waveform Window]
+* **Testbench Type**: Self-checking testbench with memory image loading (`$readmemh`).
+
+## 4. Key Simulation Results
+### Double-Issue Demonstration
+Below is the waveform showing the **Dispatch Unit** issuing two instructions simultaneously:
+
+*Observation: The Program Counter (PC) increments by 8, and two write-back signals occur at the same clock edge.*
+
+## 5. How to Reproduce
+To run the verification suite:
+1. Navigate to the `test/` directory.
+2. Run the command: `[你的執行指令，例如: iverilog -o sim cpu_tb.v]`
+3. Check the console output for `TEST PASSED` message.

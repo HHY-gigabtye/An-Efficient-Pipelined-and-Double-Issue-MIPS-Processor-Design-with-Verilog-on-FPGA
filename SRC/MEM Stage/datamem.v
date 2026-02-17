@@ -39,7 +39,7 @@ assign data8=datamem[31];
 
 always@(posedge clk)begin
 if (!btnc_i) begin
-      // -- 只在最一開始執行一次 --
+      // -- 瞼u礎b糧��瞻@繞}穢l簞繭礎疆瞻@礎繡 --
 		datamem[0]<=8'b00000000;
 		datamem[1]<=8'b00000000;
 		datamem[2]<=8'b00000000;

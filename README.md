@@ -30,11 +30,11 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 2.  Open the project in your preferred EDA tool (e.g., Vivado, ModelSim, or Icarus Verilog).
 3.  Run the top-level testbench: `test/cpu_tb.v`.
 
-## 📊 Verification & Results
-### Waveform Analysis
-*(建議：放上一張雙發射同時執行的波形截圖)*
-![Waveform](docs/assets/simulation_waveform.png)
-*The waveform demonstrates two instructions (e.g., ADDU and LW) being issued in the same clock cycle.*
+## ✅ Verification
+The correctness of this processor is verified through a suite of testbenches covering various hazard scenarios.
+
+For detailed test plans, corner case analysis, and simulation results, please see:
+👉 **[Full Verification Report](docs/verification.md)**
 
 ### Performance
 * **Target FPGA**: Xilinx Artix-7 (or your specific board).

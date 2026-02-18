@@ -12,7 +12,6 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * **High Maximun Frequency and low consumption**: The project is able to operate in 166.67 MHz stably and having low power consumption at the same time.
 
 ## 🏗 System Architecture
-*(建議：在此處插入你的架構圖連結)*
 ![MIPS Architecture](docs/Double-issue MIPS.png)
 *Detailed block diagram showing the Dual-Issue dispatch logic and Forwarding paths.*
 

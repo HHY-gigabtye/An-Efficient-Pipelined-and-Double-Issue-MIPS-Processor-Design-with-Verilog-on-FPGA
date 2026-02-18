@@ -23,7 +23,9 @@ Below is the waveform showing the **Dispatch Unit** issuing two instructions sim
 
 
 ## 5. How to Reproduce
-To run the verification suite:
+Simulation:
 1. Navigate to the `test/` directory.
 2. Run the command: `[你的執行指令，例如: iverilog -o sim cpu_tb.v]`
 3. Check the console output for `TEST PASSED` message.
+
+FPGA:

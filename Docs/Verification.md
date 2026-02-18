@@ -4,8 +4,8 @@ This document details the verification that ensures the functional correctness o
 
 ## 1. Verification Strategy
 We employed a **layered verification approach**:
-* **Unit Testing**: Each module (ALU, Register File, Decoder) was tested individually with dedicated testbenches.
-* **System Testing**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
+* **Simulation**: Each module (ALU, Register File, Decoder) was tested individually with dedicated testbenches.
+* **FPGA Implementation**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
 
 ## 2. Test Scenarios
 To verify the Double-Issue logic, I used imsertion sort to validate functionality.

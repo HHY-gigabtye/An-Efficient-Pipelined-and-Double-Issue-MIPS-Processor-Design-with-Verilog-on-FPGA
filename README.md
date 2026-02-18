@@ -9,7 +9,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * **5-Stage Pipeline**: Optimized Fetch, Decode, Execute, Memory, and Write-back stages.
 * **Hazard Management**: Use logic units to discern whether it is hazard and design control signals to eliminate RAW exception.
 * **Data Forwarding**: Minimizes stalls by routing data directly between stages.
-* **High Maximun Frequency and low consumption**: The project is able to operate in 166.67 MHz stably and having low power consumption at the same time.
+* **High Maximun Frequency and Low Power Consumption**: The project is able to operate under 166.67 MHz stably with low power consumption.
 
 ## 🏗 System Architecture
 ![MIPS Architecture](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Double-issue%20MIPS.png)

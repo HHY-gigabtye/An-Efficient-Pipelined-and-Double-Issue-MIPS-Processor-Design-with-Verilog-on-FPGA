@@ -8,6 +8,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * **Double-Issue Architecture**: Parallel execution paths for arithmetic and memory operations.
 * **5-Stage Pipeline**: Optimized Fetch, Decode, Execute, Memory, and Write-back stages.
 * **High Maximun Frequency and Low Power Consumption**: The project is able to operate under 166.67 MHz stably with low power consumption.
+* **CPI Cut Down**: Compare to single-issue MIPS, the CPI is cut down by 17%.
 * **Hazard Management**: Use logic units to discern whether it is hazard and design control signals to eliminate RAW exception.
 * **Data Forwarding**: Minimizes stalls by routing data directly between stages.
 
@@ -37,7 +38,7 @@ For detailed test plans, corner case analysis, and simulation results, please se
 ### Performance
 * **Target FPGA**: NEXYS DDR4 FPGA Board.
 * **Max Frequency**: 166.67 MHz.
-* **CPI Reduction**: 20%.
+* **CPI Reduction**: 17%.
 * **Resource Utilization**: 3719 LUTs, 1916 FFs.
 
 ---

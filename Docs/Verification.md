@@ -21,6 +21,7 @@ Below is the waveform showing the process of **insertion sort**:
 ## 5. Field-Programmable Gate Array (FPGA)
 ![Before Sorting](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Before%20Sorting.jpg)
 ![After Sorting](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/After%20Sorting.jpg)
+
 The FPGA verification result of insertion sort is shown above, the upward one is before sorting and the downward one is after sorting.
 
 ## 6. How to Reproduce

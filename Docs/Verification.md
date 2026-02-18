@@ -18,7 +18,7 @@ To verify the Double-Issue logic, I used insertion sort to validate functionalit
 Below is the waveform showing the process of **insertion sort**:
 ![Waveform](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Waveform.png)
 
-'in' signal represent input, and 'out' stands for output signal.They are combined from data 1 to data 8 from left to right. Once the sorting ends, output signal will imidiately fetch the data from data 1 to data 8.
+'in' signal represent input, and 'out' stands for output signal. They are **combined from data 1 to data 8 from left to right**. Once the sorting ends, output signal will imidiately fetch the data from data 1 to data 8.
 
 ## 5. Field-Programmable Gate Array (FPGA)
 ![Before Sorting](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Before%20Sorting.jpg)

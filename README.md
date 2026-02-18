@@ -23,12 +23,10 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * `Behaviroal Model/`: C and Assembly files which tested the program of insertion sort.
 
 ## 🛠 How to Run Simulation
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
-    ```
-2.  Open the project in your preferred EDA tool (e.g., Vivado, ModelSim, or Icarus Verilog).
-3.  Run the top-level testbench: `test/cpu_tb.v`.
+1.  Download SRC file.
+2.  Create a project in your preferred EDA tool (e.g., Vivado, ModelSim, or Icarus Verilog).
+3.  Add source codes to the project.
+4.  Run the testbench: `Testbench/mips_tb.v`.
 
 ## ✅ Verification
 The correctness of this processor is verified through a suite of testbenches covering various hazard scenarios.

@@ -15,17 +15,16 @@ To verify the Double-Issue logic, I used insertion sort to validate functionalit
 
 ## 4. Key Simulation Results
 ### Double-Issue Demonstration
-Below is the waveform showing the **Dispatch Unit** issuing two instructions simultaneously:
+Below is the waveform showing the process of **insertion sort**:
 
-*Observation: The Program Counter (PC) increments by 8, and two write-back signals occur at the same clock edge.*
 
 ## 5. Field-Programmable Gate Array (FPGA)
 
 
 ## 6. How to Reproduce
 Simulation:
-1. Add source codes form **SRC/**
-2. 
+1. Add source codes form **SRC/** and **Testbench/** to the EDA tool ()
+2. Simulate
 3. 
 
 FPGA:

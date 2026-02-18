@@ -1,6 +1,6 @@
 # Verification
 
-This document details the verification strategy used to ensure the functional correctness of the **Double-Issue MIPS Processor**, specifically focusing on hazard detection and parallel execution.
+This document details the verification that ensures the functional correctness of the **Double-Issue MIPS Processor**, specifically focusing on hazard detection and parallel execution.
 
 ## 1. Verification Strategy
 We employed a **layered verification approach**:

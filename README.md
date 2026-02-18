@@ -29,7 +29,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 4.  Run the testbench: `Testbench/mips_tb.v`.
 
 ## ✅ Verification
-The correctness of this processor is verified through a suite of testbenches covering various hazard scenarios.
+The correctness of this processor is verified through insertion sort program, simulated and implemented on EDA tool and FPGA board.
 
 For detailed test plans, corner case analysis, and simulation results, please see:
 👉 **[Full Verification Report](Docs/Verification.md)**

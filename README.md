@@ -7,7 +7,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 ## 🚀 Key Features
 * **Double-Issue Architecture**: Parallel execution paths for arithmetic and memory operations.
 * **5-Stage Pipeline**: Optimized Fetch, Decode, Execute, Memory, and Write-back stages.
-* **Hazard Management**: 
+* **Hazard Management**: Use logic units to discern whether it is hazard and design control signals to eliminate RAW exception.
 * **Data Forwarding**: Minimizes stalls by routing data directly between stages.
 * **High Maximun Frequency and low consumption**: The project is able to operate in 166.67 MHz stably and having low power consumption at the same time.
 

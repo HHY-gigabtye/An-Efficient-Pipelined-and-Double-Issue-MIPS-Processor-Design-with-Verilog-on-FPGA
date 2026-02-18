@@ -3,8 +3,7 @@
 This document details the verification that ensures the functional correctness of the **Double-Issue MIPS Processor**, specifically focusing on hazard detection and parallel execution.
 
 ## 1. Verification Strategy
-We employed a **layered verification approach**:
-* **Simulation**: Each module (ALU, Register File, Decoder) was tested individually with dedicated testbenches.
+* **Simulation**: Observe whether the circuit run as expected and ideal cases.
 * **FPGA Implementation**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
 
 ## 2. Test Scenarios

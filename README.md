@@ -37,8 +37,8 @@ For detailed test plans, corner case analysis, and simulation results, please se
 ### Performance
 * **Target FPGA**: NEXYS DDR4 FPGA Board.
 * **Max Frequency**: 166.67 MHz.
-* **Resource Utilization**: ~XXXX LUTs, ~XXXX Registers.
+* **Resource Utilization**: 3719 LUTs, 1916 FFs.
 
 ---
 ## ✉️ Contact
-**Your Name** - [Your Email] - [Your LinkedIn Profile]
+**Ho Hsuan Yi** - [julianho1028@gmail.com]

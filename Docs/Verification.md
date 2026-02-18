@@ -24,7 +24,7 @@ Below is the waveform showing the **Dispatch Unit** issuing two instructions sim
 
 ## 6. How to Reproduce
 Simulation:
-1. Add source codes form *SRC/*
+1. Add source codes form **SRC/**
 2. 
 3. 
 

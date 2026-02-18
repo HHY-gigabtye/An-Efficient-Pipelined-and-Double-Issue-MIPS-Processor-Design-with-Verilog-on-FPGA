@@ -30,3 +30,5 @@ FPGA (NEXYS DDR4 FPGA Board):
 1. Add source codes from **SRC/** and **FPGA/** to the  Vivado project.
 2. Generate bitstream.
 3. Connect to the FPGA board and use PS2 keyboard to input numbers (Press the central button to activate sorting).
+
+## 7. Power Consumption & Utilization

@@ -16,7 +16,7 @@ To verify the Double-Issue logic, I used insertion sort to validate functionalit
 ## 4. Key Simulation Results
 ### Double-Issue Demonstration
 Below is the waveform showing the process of **insertion sort**:
-![Waveform]([https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Waveform.pdf](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Waveform.png))
+![Waveform](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Waveform.png)
 
 ## 5. Field-Programmable Gate Array (FPGA)
 ![Before Sorting](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Before%20Sorting.jpg)

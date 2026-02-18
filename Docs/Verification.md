@@ -7,7 +7,7 @@ We employed a **layered verification approach**:
 * **Unit Testing**: Each module (ALU, Register File, Decoder) was tested individually with dedicated testbenches.
 * **System Testing**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
 
-## 2. Test Scenarios (Corner Cases)
+## 2. Test Scenarios
 To verify the Double-Issue logic, I used imsertion sort to validate functionality.
 
 ## 3. Simulation Environment

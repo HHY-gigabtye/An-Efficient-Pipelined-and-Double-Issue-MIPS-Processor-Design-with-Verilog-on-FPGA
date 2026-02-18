@@ -35,8 +35,8 @@ For detailed test plans, corner case analysis, and simulation results, please se
 👉 **[Full Verification Report](Docs/Verification.md)**
 
 ### Performance
-* **Target FPGA**: Xilinx Artix-7 (or your specific board).
-* **Max Frequency**: ~100 MHz (Estimated).
+* **Target FPGA**: NEXYS DDR4 FPGA Board.
+* **Max Frequency**: 166.67 MHz.
 * **Resource Utilization**: ~XXXX LUTs, ~XXXX Registers.
 
 ---

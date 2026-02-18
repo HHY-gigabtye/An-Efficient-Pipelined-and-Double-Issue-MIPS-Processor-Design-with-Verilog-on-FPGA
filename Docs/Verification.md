@@ -8,14 +8,7 @@ We employed a **layered verification approach**:
 * **System Testing**: The full CPU was tested by executing MIPS assembly programs and comparing the architectural state (Registers/Memory).
 
 ## 2. Test Scenarios (Corner Cases)
-To verify the Double-Issue logic, the following specific scenarios were tested:
-
-| Scenario | Description | Expected Result | Status |
-| :--- | :--- | :--- | :--- |
-| **Independent Instructions** | Two instructions with no dependencies (e.g., `ADD` and `SUB`). | Both issued and executed in the same cycle. | ✅ Pass |
-| **RAW Dependency** | Second instruction depends on the result of the first. | Second instruction stalls or uses Forwarding. | ✅ Pass |
-| **Load-Use Hazard** | Instruction after a `LW` depends on the loaded data. | Pipeline inserts a bubble (Stall). | ✅ Pass |
-| **Control Hazard** | A `Branch` instruction is issued. | Pipeline flushes or predicts correctly. | ✅ Pass |
+To verify the Double-Issue logic, I used imsertion sort to validate functionality.
 
 ## 3. Simulation Environment
 * **Simulator**: [例如: Vivado XSIM / Icarus Verilog]

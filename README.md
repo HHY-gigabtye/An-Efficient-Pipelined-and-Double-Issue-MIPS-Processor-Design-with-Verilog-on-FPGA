@@ -18,7 +18,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 ## 📂 Repository Structure
 * `SRC/`: Core Verilog source files (ALU, RegFile, Pipeline registers).
 * `Testbench/`: Testbenches and MIPS assembly patterns (.mem/.hex).
-* `DOcs/`: Detailed design specifications and simulation waveforms.
+* `Docs/`: Detailed design specifications and simulation waveforms.
 * `FPGA/`:
 * `Behaviroal Model/`:
 

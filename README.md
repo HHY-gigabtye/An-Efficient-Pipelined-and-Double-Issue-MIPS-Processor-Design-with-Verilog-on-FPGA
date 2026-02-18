@@ -19,8 +19,8 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * `SRC/`: Core Verilog source files (ALU, Register, Pipeline registers, stages, forwarding units, hazard detection unit and memory).
 * `Testbench/`: Testbench for simulation.
 * `Docs/`: Detailed design specifications, simulation waveforms and verification.
-* `FPGA/`:
-* `Behaviroal Model/`:
+* `FPGA/`: Modules for verificating on NEXYS DDR4 FPGA Board.
+* `Behaviroal Model/`: C and Assembly files which tested the program of insertion sort.
 
 ## 🛠 How to Run Simulation
 1.  Clone the repository:

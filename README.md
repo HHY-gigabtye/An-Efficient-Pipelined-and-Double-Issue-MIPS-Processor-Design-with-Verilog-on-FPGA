@@ -8,9 +8,8 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * **Double-Issue Architecture**: Parallel execution paths for arithmetic and memory operations.
 * **5-Stage Pipeline**: Optimized Fetch, Decode, Execute, Memory, and Write-back stages.
 * **Hazard Management**: 
-    * **Data Forwarding**: Minimizes stalls by routing data directly between stages.
-    * **Dynamic/Static Branch Prediction**: Reduces control hazard penalties.
-* **FPGA Optimized**: Written in synthesizable Verilog, keeping resource utilization and timing in mind.
+* **Data Forwarding**: Minimizes stalls by routing data directly between stages.
+* **High Maximun Frequency and low consumption**: The project is able to operate in 166.67 MHz stably and having low power consumption at the same time.
 
 ## 🏗 System Architecture
 *(建議：在此處插入你的架構圖連結)*

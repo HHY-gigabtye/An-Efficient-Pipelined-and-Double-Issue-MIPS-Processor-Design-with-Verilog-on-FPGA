@@ -24,7 +24,9 @@ Below is the waveform showing the process of **insertion sort**:
 ## 6. How to Reproduce
 Simulation:
 1. Add source codes form **SRC/** and **Testbench/** to the EDA tool(e.g., Vivado, ModelSim, or Icarus Verilog).
-2. Simulate the mips_tb.v
+2. Simulate the mips_tb.v.
 
-FPGA:
-1. 
+FPGA (NEXYS DDR4 FPGA Board):
+1. Add source codes from **SRC/** and **FPGA/** to the  Vivado project.
+2. Generate bitstream.
+3. Connect to the FPGA board and use PS2 keyboard to input numbers (Press the central button to activate sorting).

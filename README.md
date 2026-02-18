@@ -13,7 +13,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 
 ## 🏗 System Architecture
 *(建議：在此處插入你的架構圖連結)*
-![MIPS Architecture](docs/assets/architecture_diagram.png)
+![MIPS Architecture](docs/Double-issue MIPS.png)
 *Detailed block diagram showing the Dual-Issue dispatch logic and Forwarding paths.*
 
 ## 📂 Repository Structure

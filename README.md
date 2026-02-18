@@ -16,9 +16,9 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 *Detailed block diagram showing the Dual-Issue dispatch logic and Forwarding paths.*
 
 ## 📂 Repository Structure
-* `SRC/`: Core Verilog source files (ALU, RegFile, Pipeline registers).
-* `Testbench/`: Testbenches and MIPS assembly patterns (.mem/.hex).
-* `Docs/`: Detailed design specifications and simulation waveforms.
+* `SRC/`: Core Verilog source files (ALU, Register, Pipeline registers, stages, forwarding units, hazard detection unit and memory).
+* `Testbench/`: Testbench for simulation.
+* `Docs/`: Detailed design specifications, simulation waveforms and verification.
 * `FPGA/`:
 * `Behaviroal Model/`:
 

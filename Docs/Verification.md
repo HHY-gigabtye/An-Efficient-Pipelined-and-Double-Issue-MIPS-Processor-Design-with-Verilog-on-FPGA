@@ -23,8 +23,8 @@ Below is the waveform showing the process of **insertion sort**:
 
 ## 6. How to Reproduce
 Simulation:
-1. Add source codes form **SRC/** and **Testbench/** to the EDA tool ()
-2. Simulate
-3. 
+1. Add source codes form **SRC/** and **Testbench/** to the EDA tool(e.g., Vivado, ModelSim, or Icarus Verilog).
+2. Simulate the mips_tb.v
 
 FPGA:
+1. 

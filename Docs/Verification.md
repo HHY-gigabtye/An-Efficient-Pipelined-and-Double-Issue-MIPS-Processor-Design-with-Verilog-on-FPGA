@@ -19,6 +19,9 @@ Below is the waveform showing the **Dispatch Unit** issuing two instructions sim
 
 *Observation: The Program Counter (PC) increments by 8, and two write-back signals occur at the same clock edge.*
 
+## 6. Field-Programmable Gate Array (FPGA)
+
+
 ## 5. How to Reproduce
 To run the verification suite:
 1. Navigate to the `test/` directory.

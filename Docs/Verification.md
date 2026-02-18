@@ -10,9 +10,8 @@ This document details the verification that ensures the functional correctness o
 To verify the Double-Issue logic, I used insertion sort to validate functionality.
 
 ## 3. Simulation Environment
-* **Simulator**: [例如: Vivado XSIM / Icarus Verilog]
-* **Waveform Viewer**: [例如: GTKWave / Vivado Waveform Window]
-* **Testbench Type**: Self-checking testbench with memory image loading (`$readmemh`).
+* **Simulator**: ModelSim - Intel FPGA Starter Edition
+* **FPGA Software**: Vivado 2022.2
 
 ## 4. Key Simulation Results
 ### Double-Issue Demonstration

@@ -37,3 +37,5 @@ FPGA (NEXYS DDR4 FPGA Board):
 3. Connect to the FPGA board and use PS2 keyboard to input numbers (Press the central button to activate sorting).
 
 ## 7. Power Consumption & Utilization
+![Power Consumption](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Power%20Consumption.png)
+![Utilization](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Utilization.png)

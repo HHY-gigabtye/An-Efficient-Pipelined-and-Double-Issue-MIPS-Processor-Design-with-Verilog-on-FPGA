@@ -28,4 +28,5 @@ Simulation:
 2. Run the command: `[你的執行指令，例如: iverilog -o sim cpu_tb.v]`
 3. Check the console output for `TEST PASSED` message.
 
+
 FPGA:

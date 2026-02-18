@@ -12,7 +12,7 @@ This project features a high-performance, **32-bit Double-Issue Pipelined MIPS P
 * **High Maximun Frequency and low consumption**: The project is able to operate in 166.67 MHz stably and having low power consumption at the same time.
 
 ## 🏗 System Architecture
-**[MIPS Architecture](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Double-issue%20MIPS.png)**
+![MIPS Architecture](https://github.com/HHY-gigabtye/An-Efficient-Pipelined-and-Double-Issue-MIPS-Processor-Design-with-Verilog-on-FPGA/blob/main/Docs/Double-issue%20MIPS.png)
 *Detailed block diagram showing the Dual-Issue dispatch logic and Forwarding paths.*
 
 ## 📂 Repository Structure

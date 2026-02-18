@@ -2,7 +2,7 @@
 > **Developed with Verilog | Targeted for FPGA Implementation**
 
 ## 📌 Overview
-This project features a high-performance, **32-bit Double-Issue Pipelined MIPS Processor**. By fetching and executing two instructions simultaneously, the design significantly improves **Instructions Per Cycle (IPC)** compared to a standard single-issue pipeline.
+This project features a high-performance, **32-bit Double-Issue Pipelined MIPS Processor**. By fetching and executing two instructions simultaneously, the design significantly improves **Clockcycles Per Instruction (CPI)** compared to a standard single-issue pipeline.
 
 ## 🚀 Key Features
 * **Double-Issue Architecture**: Parallel execution paths for arithmetic and memory operations.

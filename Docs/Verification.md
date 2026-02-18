@@ -19,10 +19,10 @@ Below is the waveform showing the **Dispatch Unit** issuing two instructions sim
 
 *Observation: The Program Counter (PC) increments by 8, and two write-back signals occur at the same clock edge.*
 
-## 6. Field-Programmable Gate Array (FPGA)
+## 5. Field-Programmable Gate Array (FPGA)
 
 
-## 5. How to Reproduce
+## 6. How to Reproduce
 Simulation:
 1. Navigate to the `test/` directory.
 2. Run the command: `[你的執行指令，例如: iverilog -o sim cpu_tb.v]`

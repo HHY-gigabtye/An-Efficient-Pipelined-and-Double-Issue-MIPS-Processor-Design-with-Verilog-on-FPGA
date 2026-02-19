@@ -38,7 +38,7 @@ The correctness of this processor is verified through insertion sort program, si
 For detailed test plans, corner case analysis, and simulation results, please see:
 👉 **[Full Verification Report](Docs/Verification.md)**
 
-### Performance
+## Performance
 * **Target FPGA**: NEXYS DDR4 FPGA Board.
 * **Max Frequency**: 166.67 MHz.
 * **CPI Reduction**: 17%.

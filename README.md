@@ -43,7 +43,12 @@ For detailed test plans, corner case analysis, and simulation results, please se
 * **Max Frequency**: 166.67 MHz.
 * **CPI Reduction**: 17%.
 * **Resource Utilization**: 3719 LUTs, 1916 FFs.
-
+* 
+## 🏆 Recognition
+* **Award**: Honorable Mention (佳作)
+* **Event**: [專題展全名，例如：Department of Electrical Engineering Senior Design Project Exhibition]
+* **Organization**: [學校名稱]
+* **Date**: May 2025
 ---
 ## ✉️ Contact
 **Ho Hsuan Yi** - [julianho1028@gmail.com]

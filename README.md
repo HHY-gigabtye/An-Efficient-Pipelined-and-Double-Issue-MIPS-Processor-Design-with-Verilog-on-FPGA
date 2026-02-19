@@ -1,7 +1,8 @@
 # An Efficient Pipelined and Double-Issue MIPS Processor Design
-> **Developed with Verilog | Targeted for FPGA Implementation**
 > **🏆 Awarded Honorable Mention in the Senior Capstone Project Competition
 Department of Electrical Engineering, National Chung Hsing University (NCHU EE)**
+
+> **Developed with Verilog | Targeted for FPGA Implementation**
 
 ## 📌 Overview
 This project features a high-performance, **32-bit Double-Issue Pipelined MIPS Processor**. By fetching and executing two instructions simultaneously, the design significantly improves **Clockcycles Per Instruction (CPI)** compared to a standard single-issue pipeline.
